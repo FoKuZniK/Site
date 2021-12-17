@@ -1,0 +1,405 @@
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    /*
+    font-family: 'Playfair Display SC', serif;
+    */
+    font-size: 30px;
+    line-height: 1.6;
+    color: #81c2a1;
+}
+
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.header{
+    width: 1920px;
+    padding-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header_cont1 {
+    font-size: 60px;
+    margin-top: 35px;
+    text-align: center;
+    color: #b69b67;
+    text-decoration: overline 2px;
+    font-family: 'Playfair Display SC', serif;
+}
+.header_cont2 {
+    margin-top: -20px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.cont {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.intro {  /*1я картинка*/
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 1000px;
+    background: url("../images/1st.jpg") center
+    no-repeat;
+    background-size: cover;
+}
+
+.text1_1{
+    background: linear-gradient(45deg, #303030 15%, #b69b67 50%, #303030 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 600px;
+    font-size: 60px;
+}
+.text1_2{
+    font-size: 20px;
+    color: #454545;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 120px;
+}
+
+/*2 */
+._2nd{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 1000px;
+    background: url("../images/2nd.jpg") center
+    no-repeat;
+    background-size: cover;
+}
+.title2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #81c2a1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.text2_1{
+    text-transform: uppercase;
+    margin-top: 55px;
+    margin-left: 230px;
+}
+.text2_1:hover{
+    font-size: 60px;
+    margin-top: 7px;
+    color: #b69b67;
+    text-decoration: overline 2px;
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+
+.on-hover1{
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 230px;
+}
+.on-hover2{
+    margin-left: 230px;
+    text-transform: uppercase;
+    margin-top: -770px;
+}
+.on-hover3{
+    margin-left: 230px;
+    text-transform: uppercase;
+    margin-top: -250px;
+}
+.on-hover4{
+    margin-left: 230px;
+    text-transform: uppercase;
+    margin-top: -150px;
+}
+.on-hover5{
+    margin-left: 230px;
+    text-transform: uppercase;
+    margin-top: -150px;
+}
+.on-hover6{
+    margin-left: 230px;
+    text-transform: uppercase;
+    margin-top: -150px;
+}
+
+.on-hover1:hover{
+    font-size: 60px;
+    color: #b69b67;
+    text-decoration: overline 2px;
+    font-family: 'Playfair Display SC', serif;
+}
+.on-hover2:hover{
+    font-size: 60px;
+    color: #b69b67;
+    text-decoration: overline 2px;
+    font-family: 'Playfair Display SC', serif;
+}
+.on-hover3:hover{
+    font-size: 60px;
+    color: #b69b67;
+    text-decoration: overline 2px;
+    font-family: 'Playfair Display SC', serif;
+}
+.on-hover4:hover{
+    font-size: 60px;
+    color: #b69b67;
+    text-decoration: overline 2px;
+    font-family: 'Playfair Display SC', serif;
+}
+.on-hover5:hover{
+     font-size: 60px;
+     color: #b69b67;
+     text-decoration: overline 2px;
+     font-family: 'Playfair Display SC', serif;
+ }
+.on-hover6:hover{
+    font-size: 60px;
+    color: #b69b67;
+    text-decoration: overline 2px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.hidden-block{
+     width: 980px;
+     height: 1500px;
+     color:#fff;
+     font-size:20px;
+     padding:20px;
+     margin-left: 700px;
+     margin-top: -100px;
+     text-align: left;
+     opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+     transition: 0.5s; /*Скорость перехода состояния элемента*/
+}
+.hidden-block1{
+    background: url("../images/hb1.jpg") center
+    no-repeat;
+    width: 980px;
+    height: 5000px;
+    color:#fff;
+    font-size:20px;
+    margin-left: 700px;
+    margin-top: -100px;
+    text-align: left;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 0.5s; /*Скорость перехода состояния элемента*/
+}
+.hidden-block2{
+    background: url("../images/hb2.jpg") center
+    no-repeat;
+    width: 980px;
+    height: 2000px;
+    color:#fff;
+    font-size:25px;
+    padding:20px;
+    margin-left: 700px;
+    margin-top: -100px;
+    text-align: left;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 0.5s; /*Скорость перехода состояния элемента*/
+}
+.hidden-block4{
+    background: url("../images/hb4.jpg") center
+    no-repeat;
+    width: 980px;
+    height: 1500px;
+    color:#fff;
+    font-size:25px;
+    padding:20px;
+    margin-left: 700px;
+    margin-top: -100px;
+    text-align: left;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 0.5s; /*Скорость перехода состояния элемента*/
+}
+.hidden-block5{
+    background: url("../images/hb5.jpg") center
+    no-repeat;
+    width: 980px;
+    height: 1500px;
+    color:#fff;
+    font-size:25px;
+    padding:20px;
+    margin-left: 700px;
+    margin-top: -100px;
+    text-align: left;
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 0.5s; /*Скорость перехода состояния элемента*/
+}
+
+.on-hover1:hover+ .hidden-block1{
+    opacity:1;
+    transition: 1s;
+}
+.on-hover2:hover+ .hidden-block2{
+    opacity:1;
+    transition: 1s;
+}
+.on-hover4:hover+ .hidden-block4{
+    opacity:1;
+    transition: 1s;
+}
+.on-hover5:hover+ .hidden-block5{
+    opacity:1;
+    transition: 1s;
+}
+/*2 */
+
+
+
+/*3 */
+
+.ad{
+    width: 1920px;
+    height: 20px;
+    background: url("../images/ad.jpg") center
+    no-repeat;
+    background-size: cover;
+}
+._3rd{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 1000px;
+    background: url("../images/3rd.jpg") center
+    no-repeat;
+    background-size: cover;
+}
+.title3{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #81c2a1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+}
+.categories{
+    margin-top: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.cont3{
+    width: 310px;
+    height: 225px;
+    margin-top: 90px;
+    margin-left: 610px;
+}
+.cont3_1{
+    width: 310px;
+    height: 225px;
+    margin-top: 80px;
+    margin-left: 610px;
+}
+.cont3_2{
+     width: 310px;
+     height: 225px;
+     margin-top: -530px;
+     margin-left: 1390px;
+ }
+.cont3_3{
+    width: 310px;
+    height: 225px;
+    margin-top: 80px;
+    margin-left: 1390px;
+}
+
+.text3_1{
+    line-height: 40px;
+    width: 250px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #303030;
+}
+.text3_2{
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 70px;
+    font-size: 16px;
+    width: 290px;
+    color: #303030;
+}
+.text3_3{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #303030;
+}
+
+/*3 */
+
+/*4*/
+
+._4th{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 1000px;
+    background: url("../images/4th.jpg") center
+    no-repeat;
+    background-size: cover;
+}
+.cont4_1{
+    width: 620px;
+    height: 870px;
+    margin-left: 330px;
+}
+
+.text4_1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #81c2a1;
+    margin-left: 60px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display SC', serif;
+}
+.text4_2{
+    margin-top: 20px;
+    margin-right: 30px;
+    line-height: 40px;
+}
+.text4_2_1{
+    margin-top: 78px;
+    margin-right: 30px;
+    line-height: 40px;
+}
+.text4_3{
+    margin-top: 20px;
+    margin-right: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #b69b67;
+}
+.text4_4{
+    
+}
+/*4*/
+
